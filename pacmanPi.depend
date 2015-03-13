@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1338336400 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\cazador.cpp
+	"Cazador.h"
+
+1338234474 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\cazador.h
+	"Fantasma.h"
+
+1338452700 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\fantasma.h
+	"Personaje.h"
+
+1338264948 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\personaje.h
+	<iostream>
+	<SDL\SDL.h>
+
+1338263490 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\elemento.cpp
+	"Elemento.h"
+
+1338057634 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\elemento.h
+	<SDL\SDL.h>
+
+1338471108 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\elementosjuego.cpp
+	"ElementosJuego.h"
+
+1338454250 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\elementosjuego.h
+	<iostream>
+	"Pacman.h"
+	"Tonto.h"
+	"Emboscador.h"
+	"Miedoso.h"
+	"Cazador.h"
+	"Elemento.h"
+	<fstream>
+
+1338418400 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\pacman.h
+	"Personaje.h"
+
+1338232774 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\tonto.h
+	"Fantasma.h"
+
+1338240314 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\emboscador.h
+	"Fantasma.h"
+
+1338240514 c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\miedoso.h
+	"Fantasma.h"
+
+1338267080 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\emboscador.cpp
+	"Emboscador.h"
+
+1338454408 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\fantasma.cpp
+	"Fantasma.h"
+
+1338308566 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\miedoso.cpp
+	"Miedoso.h"
+
+1338779186 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\pacman.cpp
+	"Pacman.h"
+
+1338266760 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\personaje.cpp
+	"Personaje.h"
+
+1338308566 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\tonto.cpp
+	"Tonto.h"
+
+1418140266 source:c:\documents and settings\bladimir humber\my documents\codeblocks\pacmanpi\main.cpp
+	"ElementosJuego.h"
+

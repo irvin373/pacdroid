@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sdll" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\sdll" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\sdll" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\SDL-1.2.15\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:\SDL-1.2.15\lib" />
+		</Linker>
+		<Unit filename="Cazador.cpp" />
+		<Unit filename="Cazador.h" />
+		<Unit filename="DownClose.bmp" />
+		<Unit filename="DownOpen.bmp" />
+		<Unit filename="Elemento.cpp" />
+		<Unit filename="Elemento.h" />
+		<Unit filename="ElementosJuego.cpp" />
+		<Unit filename="ElementosJuego.h" />
+		<Unit filename="Emboscador.cpp" />
+		<Unit filename="Emboscador.h" />
+		<Unit filename="Fantasma.cpp" />
+		<Unit filename="Fantasma.h" />
+		<Unit filename="LeftClose.bmp" />
+		<Unit filename="LeftOpen.bmp" />
+		<Unit filename="Miedoso.cpp" />
+		<Unit filename="Miedoso.h" />
+		<Unit filename="Pacman.cpp" />
+		<Unit filename="Pacman.h" />
+		<Unit filename="Personaje.cpp" />
+		<Unit filename="Personaje.h" />
+		<Unit filename="RigthClose.bmp" />
+		<Unit filename="RigthOpen.bmp" />
+		<Unit filename="SDL.dll" />
+		<Unit filename="SDL.lib" />
+		<Unit filename="SDLmain.lib" />
+		<Unit filename="Tonto.cpp" />
+		<Unit filename="Tonto.h" />
+		<Unit filename="UpClose.bmp" />
+		<Unit filename="billgates.bmp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="end.bmp" />
+		<Unit filename="fondo.bmp" />
+		<Unit filename="homero.bmp" />
+		<Unit filename="kitti.bmp" />
+		<Unit filename="mac.bmp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mapa1.txt" />
+		<Unit filename="mapas.txt" />
+		<Unit filename="menu.bmp" />
+		<Unit filename="pacdroid.cbp" />
+		<Unit filename="pacmanPi.cbp" />
+		<Unit filename="pacmanPi.depend" />
+		<Unit filename="pared.bmp" />
+		<Unit filename="poder.bmp" />
+		<Unit filename="rasta.bmp" />
+		<Unit filename="sdll.cbp" />
+		<Unit filename="sdll.depend" />
+		<Unit filename="tux.bmp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
